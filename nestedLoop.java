@@ -1,5 +1,3 @@
-package JAVA_kodNest;
-
 public class nestedLoop {
 
 	public static void main(String[] args) {
