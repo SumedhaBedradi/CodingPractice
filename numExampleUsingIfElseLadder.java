@@ -1,5 +1,3 @@
-package JAVA_kodNest;
-
 import java.util.Scanner;
 
 public class numExampleUsingIfElseLadder {
