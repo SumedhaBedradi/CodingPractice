@@ -1,5 +1,3 @@
-package JAVA_Practice;
-
 public class ForWhileDowhileExample {
 
 	public static void main(String[] args) {
