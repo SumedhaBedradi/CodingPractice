@@ -1,5 +1,3 @@
-package JAVA_Practice;
-
 import java.util.Scanner;
 
 public class SeasonIdentifier {
