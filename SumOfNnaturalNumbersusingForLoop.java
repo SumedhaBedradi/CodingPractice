@@ -1,7 +1,6 @@
 import java.util.Scanner;
-
-public class SumOfNnaturalNumbersusingForLoop {
- 
+public class SumOfNnaturalNumbersUsingForloop {
+    
 	public static void main(String[] args) {
 		System.out.println("Enter a number");
 		Scanner sc = new Scanner(System.in);
