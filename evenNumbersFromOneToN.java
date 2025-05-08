@@ -8,6 +8,6 @@ public class evenNumbersFromOneToN {
 		while (i <= n) {
 			System.out.println(i);
 			i += 2;
-		}v
+		}
 	}
 }

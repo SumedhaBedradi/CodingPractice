@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class MathematicOperation {
+public class MathematicalOperation {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter operation to perform: ");
@@ -41,4 +41,4 @@ class MathOperation {
 		return a / b;
 	}
 }
-
+    
