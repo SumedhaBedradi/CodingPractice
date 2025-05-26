@@ -1,5 +1,4 @@
  class Program {
-
  static int x, y;
 	static {
 		System.out.println("Static Block");
