@@ -3,7 +3,14 @@ public class PrimeCheck {
         if (num <= 1) return false;
         for (int i = 2; i * i <= num; i++) {
             if (num % i == 0) return false;
-}
+            }
         return true;
+    }
 }
+public class Main {
+    public static void main(String[] args) {
+        System.out.println(PrimeCheck.isPrime(2));  // true
+        System.out.println(PrimeCheck.isPrime(15)); // false
+        System.out.println(PrimeCheck.isPrime(17)); // true
+    }
 }
