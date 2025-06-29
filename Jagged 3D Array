@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class jagged3DarrayEg1 {
+
+	public static void main(String[] args) {
+		// 3D array
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter number of Schools:");
+		int[][][] arr = new int[sc.nextInt()][][];// [blocks][rows][columns]
+		// Input number of classes and students per class
+		for (int i = 0; i <= arr.length - 1; i++) {
+			System.out.print("Enter number of classes in school " + (i + 1) + ": ");
+			int numClasses = sc.nextInt();
+			arr[i] = new int[numClasses][];
+
+			for (int j = 0; j < numClasses; j++) {
+				System.out.print("Enter number of students in class " + (j + 1) + " of school " + (i + 1) + ": ");
+				int numStudents = sc.nextInt();
+				arr[i][j] = new int[numStudents];
+
+				for (int k = 0; k < numStudents; k++) {
+					System.out.print("Enter marks for student " + (k + 1) + ": ");
+					arr[i][j][k] = sc.nextInt();
+				}
+			}
+		}
+		for (int i = 0; i <= arr.length - 1; i++) {
+			for (int j = 0; j <= arr[i].length - 1; j++) {
+				for (int k = 0; k <= arr[i][j].length - 1; k++) {
+					System.out.println(
+							"School " + (i + 1) + " Class " + (j + 1) + ": Student " + (k + 1) + ": " + arr[i][j][k]);
+				}
+			}
+		}
+	}
+}
