@@ -1,0 +1,30 @@
+public class RemoveWhiteSpace {
+
+    // Method to remove all white space characters from a given string
+    public static String removeWhiteSpaces(String input) {
+        StringBuilder output = new StringBuilder();
+
+        // Convert the string to a character array
+        char[] charArray = input.toCharArray();
+
+        // Iterate through each character
+        for (char c : charArray) {
+            // Append only non-whitespace characters
+            if (!Character.isWhitespace(c)) {
+                output.append(c);
+            }
+        }
+
+        // Return the final string without white spaces
+        return output.toString();
+    }
+
+    // Main method to test the function
+    public static void main(String[] args) {
+        String original = "  Hello   World \n This is\tJava!  ";
+        String cleaned = removeWhiteSpaces(original);
+
+        System.out.println("Original: \"" + original + "\"");
+        System.out.println("Cleaned: \"" + cleaned + "\"");
+    }
+}
