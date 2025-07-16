@@ -15,7 +15,6 @@ public class InsertAnElementAtSpecificPlace {
 
         // Print the original array using Arrays.toString() method.
         System.out.println("Original Array : " + Arrays.toString(my_array));     
-        
         // Loop to shift elements to make space for the new element.
         for (int i = my_array.length - 1; i > Index_position; i--) {
             my_array[i] = my_array[i - 1];

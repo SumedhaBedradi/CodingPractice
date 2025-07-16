@@ -1,28 +1,31 @@
 import java.util.Scanner;
+
 class RotateLeft {
     public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
-        int [] arr = new int [] {1, 2, 3, 4, 5};
-         
+        Scanner sc = new Scanner(System.in);
+
+        int[] arr = new int[] {1, 2, 3, 4, 5};
+
+        System.out.print("Enter number of times to left rotate the array: ");
         int n = sc.nextInt();
-        
+
         System.out.println("Original array: ");
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
-        
-        for(int i = 0; i < n; i++) {
-            int j, first;
-            first = arr;
-            for(j = 0; j < arr.length-1; j++) {
-                
-                arr[j] = arr[j+1];
+
+        for (int i = 0; i < n; i++) {
+            int first = arr[0];  // Store first element
+            int j;
+            for (j = 0; j < arr.length - 1; j++) {
+                arr[j] = arr[j + 1];  // Shift elements left
             }
-            arr[j] = first;
+            arr[j] = first;  // Put first element at the end
         }
+
         System.out.println();
         System.out.println("Array after left rotation: ");
-        for(int i = 0; i< arr.length; i++) {
+        for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
     }
