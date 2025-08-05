@@ -1,3 +1,4 @@
+import java.util.*;
 public class FindLengthOfLongestConsecutiveSequence {
     public static void main(String[] args) {
         int nums[] = {49, 1, 3, 200, 2, 4, 70, 5};  
