@@ -1,5 +1,4 @@
-public class PowerOfTwo {
-
+public class powerOfTwo {
     // Method to check if a number is a power of two
     public boolean isPowerOfTwo(int n) {
         long num = 1;
@@ -11,7 +10,7 @@ public class PowerOfTwo {
 
     // Main method for testing
     public static void main(String[] args) {
-        PowerOfTwo checker = new PowerOfTwo();
+        powerOfTwo checker = new powerOfTwo();
 
         int[] testNumbers = {1, 2, 3, 4, 16, 18, 32, 64, 100};
 
