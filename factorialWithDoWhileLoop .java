@@ -14,4 +14,5 @@ class factorialWithDoWhileLoop {
         } while (i <= number);
         System.out.println("Factorial of " + number + " is: " + factorial);
     }
-}   
+} 
+  
