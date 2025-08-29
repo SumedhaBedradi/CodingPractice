@@ -35,4 +35,5 @@
         int k = 2;
         System.out.println(maxOnes(arr, k));
     }
+    
  }
