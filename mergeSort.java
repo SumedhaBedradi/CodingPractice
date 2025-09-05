@@ -68,7 +68,7 @@ public class mergeSort {
         int a[] = { 12, 11, 13, 5, 6, 7 };
 
         // Calling of Merge Sort
-        MergeSort ob = new MergeSort();
+        mergeSort ob = new mergeSort(); // Create an object of mergeSort class
         ob.sort(a, 0, a.length - 1);
 
         int n = a.length;
