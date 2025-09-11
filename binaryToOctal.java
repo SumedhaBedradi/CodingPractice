@@ -62,3 +62,4 @@ public class binaryToOctal {
         System.out.print(ob.decimalToOctal(binary));
     }
 }
+
