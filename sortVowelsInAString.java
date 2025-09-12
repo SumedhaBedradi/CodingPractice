@@ -36,7 +36,7 @@ public class sortVowelsInAString {
 
     // Main method for testing
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        sortVowelsInAString sol = new sortVowelsInAString();
         String input = "lEetcOde";
         String output = sol.sortVowels(input);
         System.out.println("Sorted vowels: " + output); // Output: "lEOtcede"
