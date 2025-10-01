@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RomanToNumber",
+            "request": "launch",
+            "mainClass": "RomanToNumber",
+            "projectName": "CodingPractice-1_a6e8ef00"
+        },
+        {
+            "type": "java",
             "name": "FindSubString",
             "request": "launch",
             "mainClass": "FindSubString",
